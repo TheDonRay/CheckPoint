@@ -3,7 +3,12 @@ const app = express();
 
 app.use(express.json());   
 
-//Routes defined below 
+//Routes defined below  
+
+
+app.get('/', (req, res) => { 
+    res.redirect('overview'); 
+})
 
 app.get('/overview', (req, res) =>  {
     res.json({ 
