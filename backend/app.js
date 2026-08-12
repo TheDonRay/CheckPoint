@@ -5,10 +5,10 @@ app.use(express.json());
 
 //Routes defined below  
 
-
+// automatically redirects this route here 
 app.get('/', (req, res) => { 
-    res.redirect('overview'); 
-})
+    res.redirect('/overview');
+}); 
 
 app.get('/overview', (req, res) =>  {
     res.json({ 
