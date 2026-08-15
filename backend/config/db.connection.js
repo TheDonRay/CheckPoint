@@ -1,13 +1,26 @@
 import mongoose from "mongoose";
 
 const dbConnection = async () => {
+  const uri = process.env.MONGODB_URI;
+
+  if (!uri) {
+    throw new Error(
+      "MONGODB_URI is not set. Add it to backend/.env before starting the app.",
+    );
+  }
+
   try {
-    const validConnection = mongoose.connect(process.env.MONGODB_URI);
+    await mongoose.connect(uri);
     console.log("Connected to database Successfully");
   } catch (error) {
     console.error(`Database connection error: ${error.message}`);
-    process.exit(1); // Exit process with failure
+    throw error;
   }
 };
 
-export { dbConnection };
+const dbDisconnect = async () => {
+  await mongoose.disconnect();
+  console.log("Disconnected from database");
+};
+
+export { dbConnection, dbDisconnect };
