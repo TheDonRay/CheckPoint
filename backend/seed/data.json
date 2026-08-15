@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Amara Okafor",
+    "email": "amara.okafor@example.com",
+    "role": "admin",
+    "status": "active",
+    "createdAt": "2024-01-15T08:42:00Z"
+  },
+  {
+    "name": "Viktor Petrov",
+    "email": "viktor.petrov@example.com",
+    "role": "admin",
+    "status": "suspended",
+    "createdAt": "2024-02-03T14:17:00Z"
+  },
+  {
+    "name": "Lena Fischer",
+    "email": "lena.fischer@example.com",
+    "role": "admin",
+    "status": "pending",
+    "createdAt": "2024-03-22T11:05:00Z"
+  },
+  {
+    "name": "Diego Morales",
+    "email": "diego.morales@example.com",
+    "role": "member",
+    "status": "active",
+    "createdAt": "2024-04-08T09:30:00Z"
+  },
+  {
+    "name": "Priya Raghavan",
+    "email": "priya.raghavan@example.com",
+    "role": "member",
+    "status": "suspended",
+    "createdAt": "2024-05-19T16:48:00Z"
+  },
+  {
+    "name": "Tomas Novak",
+    "email": "tomas.novak@example.com",
+    "role": "member",
+    "status": "pending",
+    "createdAt": "2024-06-27T07:12:00Z"
+  },
+  {
+    "name": "Yuki Tanaka",
+    "email": "yuki.tanaka@example.com",
+    "role": "viewer",
+    "status": "active",
+    "createdAt": "2024-07-11T13:55:00Z"
+  },
+  {
+    "name": "Fatima Al-Rashid",
+    "email": "fatima.alrashid@example.com",
+    "role": "viewer",
+    "status": "suspended",
+    "createdAt": "2024-08-30T18:21:00Z"
+  },
+  {
+    "name": "Marcus Bell",
+    "email": "marcus.bell@example.com",
+    "role": "viewer",
+    "status": "pending",
+    "createdAt": "2024-09-14T10:03:00Z"
+  },
+  {
+    "name": "Sofia Marchetti",
+    "email": "sofia.marchetti@example.com",
+    "role": "member",
+    "status": "active",
+    "createdAt": "2024-10-05T12:40:00Z"
+  },
+  {
+    "name": "Kwame Mensah",
+    "email": "kwame.mensah@example.com",
+    "role": "member",
+    "status": "active",
+    "createdAt": "2024-11-23T15:09:00Z"
+  },
+  {
+    "name": "Elena Volkova",
+    "email": "elena.volkova@example.com",
+    "role": "viewer",
+    "status": "active",
+    "createdAt": "2025-01-09T06:58:00Z"
+  },
+  {
+    "name": "Rahul Kapoor",
+    "email": "rahul.kapoor@example.com",
+    "role": "member",
+    "status": "active",
+    "createdAt": "2025-02-17T17:33:00Z"
+  },
+  {
+    "name": "Nora Lindqvist",
+    "email": "nora.lindqvist@example.com",
+    "role": "viewer",
+    "status": "active",
+    "createdAt": "2025-03-28T08:26:00Z"
+  },
+  {
+    "name": "Hassan Farouk",
+    "email": "hassan.farouk@example.com",
+    "role": "member",
+    "status": "suspended",
+    "createdAt": "2025-05-06T19:14:00Z"
+  }
+]
