@@ -1,4 +1,6 @@
 import express from "express";
+import userRouter from "./routes/users.route.js";
+
 const app = express();
 
 app.use(express.json());
@@ -21,5 +23,6 @@ app.get("/overview", (req, res) => {
 });
 
 // Mount routes below here
+app.use("/users", userRouter);
 
 export default app;
