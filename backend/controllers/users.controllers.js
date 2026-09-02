@@ -4,9 +4,11 @@ import { User } from "../models/users.mongoSchema.js";
 const getAllUsers = async (req, res, next) => {
     try {
         const users = await User.find();
-        res.json(users);
+        return res.json(users);
     } catch (error) {
-        next(error);
+        return res.status(500).json({ 
+            Error: error
+        }); 
     }
 };
 
