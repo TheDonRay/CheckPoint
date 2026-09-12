@@ -12,7 +12,7 @@ const getAllUsers = async (req, res, next) => {
 
         res.json({ page, limit, total, users });
     } catch (error) {
-        next(error);
+        next(error); // returns to the next error here 
     }
 };
 

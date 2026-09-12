@@ -23,6 +23,6 @@ app.get("/overview", (req, res) => {
 });
 
 // Mount routes below here
-app.use("/users", userRouter);
+app.use("/api/v1/users", userRouter);
 
 export default app;
