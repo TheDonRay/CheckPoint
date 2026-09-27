@@ -1,3 +1,11 @@
+# Technologies to implement / work on 
+- Sentry 
+- AI 
+- AWS cloud service 
+- backup into another mongodb account to test 
+- Load testing add more endpoints 
+
+
 # Checkpoint
 
 An Express + MongoDB service that seeds a database and gates every query behind pluggable validation middleware, so any request can be inspected, transformed, or blocked before it reaches your data.
