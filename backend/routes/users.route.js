@@ -9,6 +9,6 @@ import { getAllUsers } from '../controllers/users.controllers.js';
 const userRouter = express.Router();
 
 // route definitions below
-userRouter.get('/', validateUserQuery, getAllUsers);
+userRouter.get('/users', validateUserQuery, getAllUsers);
 
 export default userRouter;
